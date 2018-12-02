@@ -1,0 +1,96 @@
+.NoTable
+{
+	font-size: 15px;
+	font-family: Arial;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 28%;
+}
+.Footer
+{
+	text-align: right;
+}
+h
+{
+	color: #641349;
+	font-size: 22px;
+	font-family: cursive, comic sans ms, franklin gothic medium, arial;
+	font-weight: bold;
+}
+div p
+{
+	font-size: 18px;
+	font-family: Arial;
+	color: #00416a;
+}
+nav /*задаем параметры для контейнера nav */
+{
+	margin: 0px;
+	margin-bottom: 20px;
+	background-color: #8c4566;
+}
+nav ul /* убираем отступы, поля, list-style */
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+nav ul li /* применяем позиционирование к элементам навигации */
+{
+	margin: 0px -7px 0 0;
+	display: inline-block;
+	background-color: #8c4566;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+nav a /* стиль для ссылок */
+{
+	display: block;
+	padding: 0 10px;
+	color: #230d21;
+	font-size: 20px;
+	line-height: 60px;
+	text-decoration: none;
+}
+nav a:hover /* изменение фона при наведении курсора */
+{
+	background-color: #6b344e;
+}
+nav ul ul /* скрываем вып. списки и задаем абс. позиционирование */
+{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+nav ul li:hover > ul /* отображаем вып. списки при наведении */
+{
+	display: inherit;
+}
+nav ul ul li /* первый уровень выпадающего списка */
+{
+	min-width: 170px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+@media print
+{
+	img
+	{ 
+		display: none; 
+	} 
+	.Footer
+	{
+		display: none;
+	}
+	nav
+	{
+		display: none;
+	}
+}
