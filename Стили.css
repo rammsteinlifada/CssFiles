@@ -17,15 +17,15 @@
 }
 .BackForItem1
 {
-	background-image: url (avatars.mds.yandex.net/get-pdb/234183/281a9a77-396c-4f13-85f9-3a91d3697d7e/s1200?webp=false);
+	background-image: url (https://avatars.mds.yandex.net/get-pdb/234183/281a9a77-396c-4f13-85f9-3a91d3697d7e/s1200?webp=false);
 	background-attachment: scroll;
-	background-repeat: no-repeat;;
+	background-repeat: no-repeat;
 }
 .BackForItem2
 {
-	background-image: url (steemitimages.com/p/3q52Dkr5nBe4DyaLtsLE16CSRm4pv7GXZrrbQHG84hU5KGmfvwUQ34xWKYPuJcbhDKoBXTnRZvS2a?format=match&mode=fit);
+	background-image: url ((https://steemitimages.com/p/3q52Dkr5nBe4DyaLtsLE16CSRm4pv7GXZrrbQHG84hU5KGmfvwUQ34xWKYPuJcbhDKoBXTnRZvS2a?format=match&mode=fit);
 	background-attachment: scroll;
-	background-repeat: no-repeat;;
+	background-repeat: no-repeat;
 }
 h
 {
